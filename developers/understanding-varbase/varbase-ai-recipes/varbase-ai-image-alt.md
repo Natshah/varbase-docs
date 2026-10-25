@@ -37,7 +37,7 @@ Each image saved with an empty description or empty tags makes AI calls, includi
 Apply the recipe using Drush:
 
 ```bash
-ddev composer require drupal/varbase_ai_image_alt:~2.0.0
+ddev composer require drupal/varbase_ai_image_alt:~2
 ddev drush recipe ../recipes/varbase_ai_image_alt
 ```
 

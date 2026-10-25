@@ -13,7 +13,7 @@ Varbase AI
 [https://www.drupal.org/project/varbase\_ai\_vdb\_milvus](https://www.drupal.org/project/varbase_ai_vdb_milvus)
 
 {% hint style="warning" %}
-**Alpha release.** Version 1.0.0-alpha1. The Milvus VDB provider has no stable release yet. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
+**Pre-release.** The Milvus VDB provider has no stable release yet. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
 {% endhint %}
 
 ## What It Adds
@@ -42,7 +42,7 @@ It does not create a search index. That is the job of **Varbase AI Search Base**
 Add the recipe with Composer, then apply it with Drush:
 
 ```bash
-ddev composer require drupal/varbase_ai_vdb_milvus:~1.0.0@alpha
+ddev composer require drupal/varbase_ai_vdb_milvus:~1
 ddev drush cr
 ddev drush recipe ../recipes/varbase_ai_vdb_milvus
 ddev drush cr

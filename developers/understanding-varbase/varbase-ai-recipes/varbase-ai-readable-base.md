@@ -11,7 +11,7 @@ Varbase AI
 [https://www.drupal.org/project/varbase\_ai\_readable\_base](https://www.drupal.org/project/varbase_ai_readable_base)
 
 {% hint style="warning" %}
-**Alpha release.** Version 1.0.0-alpha1. The modules it installs, **llms.txt** and **Markdownify**, are stable. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
+**Pre-release.** The modules it installs, **llms.txt** and **Markdownify**, are stable. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
 {% endhint %}
 
 ## What It Adds
@@ -29,7 +29,7 @@ It needs no AI provider or key. **Varbase AI Base** is not required.
 Add the recipe with Composer, then apply it with Drush:
 
 ```bash
-ddev composer require drupal/varbase_ai_readable_base:~1.0.0@alpha
+ddev composer require drupal/varbase_ai_readable_base:~1
 ddev drush cr
 ddev drush recipe ../recipes/varbase_ai_readable_base
 ddev drush cr

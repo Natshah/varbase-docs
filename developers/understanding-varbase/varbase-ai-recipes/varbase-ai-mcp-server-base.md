@@ -11,7 +11,7 @@ Varbase AI
 [https://www.drupal.org/project/varbase\_ai\_mcp\_server\_base](https://www.drupal.org/project/varbase_ai_mcp_server_base)
 
 {% hint style="warning" %}
-**Alpha release.** Version 1.0.0-alpha1. The MCP and OAuth modules it uses are not stable yet. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
+**Pre-release.** The MCP and OAuth modules it uses are not stable yet. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
 {% endhint %}
 
 ## What It Adds
@@ -30,7 +30,7 @@ This recipe does not need **Varbase AI Base** or an AI provider. It needs the PH
 Add the recipe with Composer, then apply it with Drush:
 
 ```bash
-ddev composer require drupal/varbase_ai_mcp_server_base:~1.0.0@alpha
+ddev composer require drupal/varbase_ai_mcp_server_base:~1
 ddev drush cr
 ddev drush recipe ../recipes/varbase_ai_mcp_server_base
 ddev drush cr

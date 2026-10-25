@@ -11,7 +11,7 @@ Varbase AI
 [https://www.drupal.org/project/varbase\_ai\_seo](https://www.drupal.org/project/varbase_ai_seo)
 
 {% hint style="warning" %}
-**Alpha release.** Version 1.0.0-alpha1. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
+**Pre-release.** This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
 {% endhint %}
 
 ## What It Adds
@@ -32,7 +32,7 @@ Apply [**Varbase AI Base**](varbase-ai-base.md) first, for a default chat model.
 Add the recipe with Composer, then apply it with Drush:
 
 ```bash
-ddev composer require drupal/varbase_ai_seo:~1.0.0@alpha
+ddev composer require drupal/varbase_ai_seo:~1
 ddev drush cr
 ddev drush recipe ../recipes/varbase_ai_seo
 ddev drush cr

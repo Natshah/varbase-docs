@@ -11,7 +11,7 @@ Varbase AI
 [https://www.drupal.org/project/varbase\_ai\_content\_operations\_base](https://www.drupal.org/project/varbase_ai_content_operations_base)
 
 {% hint style="warning" %}
-**Alpha release.** Version 1.0.0-alpha1. Tool API and Tool Belt have no stable release yet. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
+**Pre-release.** Tool API and Tool Belt have no stable release yet. This recipe is not covered by the Drupal security advisory policy. Try it on a development site first.
 {% endhint %}
 
 ## What It Adds
@@ -37,7 +37,7 @@ Apply [**Varbase AI Base**](varbase-ai-base.md) first. It sets a default chat mo
 Add the recipe with Composer, then apply it with Drush:
 
 ```bash
-ddev composer require drupal/varbase_ai_content_operations_base:~1.0.0@alpha
+ddev composer require drupal/varbase_ai_content_operations_base:~1
 ddev drush cr
 ddev drush recipe ../recipes/varbase_ai_content_operations_base
 ddev drush cr
