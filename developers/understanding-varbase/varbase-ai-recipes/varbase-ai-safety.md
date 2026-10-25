@@ -72,9 +72,10 @@ Adjust `prompt_logging_max_age` (in days) at **Admin → AI → Logging** to mat
 
 ## Installation
 
-Apply the recipe using Drush:
+Add the recipe with Composer, then apply it with Drush:
 
 ```bash
+ddev composer require drupal/varbase_ai_safety:~1
 ddev drush recipe ../recipes/varbase_ai_safety
 ```
 

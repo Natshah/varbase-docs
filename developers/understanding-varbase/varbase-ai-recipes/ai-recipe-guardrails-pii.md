@@ -42,9 +42,10 @@ After install, manage individual PII guardrail rules at **Admin → AI → Confi
 
 ## Installation
 
-Apply the recipe using Drush:
+Add the recipe with Composer, then apply it with Drush:
 
 ```bash
+ddev composer require drupal/ai_recipe_guardrails_pii:~1
 ddev drush recipe ../recipes/ai_recipe_guardrails_pii
 ```
 

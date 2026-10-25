@@ -28,9 +28,10 @@ During installation, the recipe accepts an input for the content type machine na
 
 ## Installation
 
-Apply the recipe using Drush:
+Add the recipe with Composer, then apply it with Drush:
 
 ```bash
+ddev composer require drupal/varbase_ai_taxonomy_tagging:~2
 ddev drush recipe ../recipes/varbase_ai_taxonomy_tagging
 ```
 

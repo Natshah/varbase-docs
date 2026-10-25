@@ -45,9 +45,10 @@ After install, fine-tune the prompt safety rules at **Admin → AI → Configura
 
 ## Installation
 
-Apply the recipe using Drush:
+Add the recipe with Composer, then apply it with Drush:
 
 ```bash
+ddev composer require drupal/ai_recipe_guardrails_prompt_safety:~1
 ddev drush recipe ../recipes/ai_recipe_guardrails_prompt_safety
 ```
 

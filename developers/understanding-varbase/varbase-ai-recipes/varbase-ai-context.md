@@ -56,9 +56,10 @@ After install, narrow or broaden each context item's scope at **Admin → AI →
 
 ## Installation
 
-Apply the recipe using Drush:
+Add the recipe with Composer, then apply it with Drush:
 
 ```bash
+ddev composer require drupal/varbase_ai_context:~1
 ddev drush recipe ../recipes/varbase_ai_context
 ```
 

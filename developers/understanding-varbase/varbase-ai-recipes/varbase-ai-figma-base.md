@@ -69,9 +69,10 @@ The recipe applies the following configurations:
 
 ## Installation
 
-Apply the recipe using Drush:
+Add the recipe with Composer, then apply it with Drush:
 
 ```bash
+ddev composer require drupal/varbase_ai_figma_base:~1
 ddev drush recipe ../recipes/varbase_ai_figma_base
 ```
 
