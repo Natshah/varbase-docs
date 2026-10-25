@@ -47,24 +47,3 @@ Apply the recipes in this order. Each one needs the ones before it.
 3. [**Varbase AI Search Base**](varbase-ai-search-base.md): the vector index of the site's content.
 4. [**Varbase AI Chatbot Base**](varbase-ai-chatbot-base.md) and [**Varbase AI Answers Base**](varbase-ai-answers-base.md), which answer from that index.
 5. The others, in any order: **Content Review Base**, **Content Operations Base**, **MCP Server Base**, **Readable Base**, **SEO** and **Media Base**. They do not need a vector database. **MCP Server Base** and **Readable Base** do not need **Varbase AI Base** either.
-
-## Installing the Alpha Recipes
-
-The recipes released on 24 October 2026 are **1.0.0-alpha1**. They are early releases and are not covered by the Drupal security advisory policy. Try them on a development site first.
-
-Keep each recipe a locked package before you require it. Without this, Drupal core's recipe unpack plugin moves the recipe's requirements into the project's `composer.json` and drops the recipe itself. List every recipe you plan to use, and add to any list the project already has rather than replacing it:
-
-```bash
-ddev composer config --json extra.drupal-recipe-unpack.ignore '["drupal/varbase_ai_vdb_mariadb", "drupal/varbase_ai_search_base", "drupal/varbase_ai_chatbot_base", "drupal/varbase_ai_answers_base"]'
-```
-
-Then require and apply each recipe:
-
-```bash
-ddev composer require drupal/<recipe_name>:~1.0.0@alpha
-ddev drush cr
-ddev drush recipe ../recipes/<recipe_name>
-ddev drush cr
-```
-
-The `drush cr` before applying lets Drupal see the modules Composer just added.

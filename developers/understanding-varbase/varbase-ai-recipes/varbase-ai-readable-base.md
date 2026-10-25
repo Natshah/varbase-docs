@@ -35,7 +35,6 @@ ddev drush recipe ../recipes/varbase_ai_readable_base
 ddev drush cr
 ```
 
-Add `drupal/varbase_ai_readable_base` to the recipe unpack ignore list first, as described in [Installing the Alpha Recipes](README.md#installing-the-alpha-recipes).
 
 {% hint style="warning" %}
 **One line in `settings.php` is required.** Varbase ships **Fast 404**, which answers every `.txt` path with a 404. Add `/llms.txt` as an exception:

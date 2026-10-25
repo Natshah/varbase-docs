@@ -43,7 +43,6 @@ ddev drush recipe ../recipes/varbase_ai_content_operations_base
 ddev drush cr
 ```
 
-Add `drupal/varbase_ai_content_operations_base` to the recipe unpack ignore list first, as described in [Installing the Alpha Recipes](README.md#installing-the-alpha-recipes).
 
 {% hint style="info" %}
 Answers can take more than a minute. Raise the AI request timeout to 180 seconds at **Administration** \ **Configuration** \ **AI** \ _**AI settings**_.

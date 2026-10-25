@@ -48,7 +48,6 @@ ddev drush recipe ../recipes/varbase_ai_vdb_milvus
 ddev drush cr
 ```
 
-Add `drupal/varbase_ai_vdb_milvus` to the recipe unpack ignore list first, as described in [Installing the Alpha Recipes](README.md#installing-the-alpha-recipes).
 
 For a local Milvus in DDEV, add the service before applying the recipe:
 

@@ -37,5 +37,3 @@ ddev drush cr
 ddev drush recipe ../recipes/varbase_ai_seo
 ddev drush cr
 ```
-
-Add `drupal/varbase_ai_seo` to the recipe unpack ignore list first, as described in [Installing the Alpha Recipes](README.md#installing-the-alpha-recipes).

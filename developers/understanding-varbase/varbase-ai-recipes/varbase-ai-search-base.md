@@ -39,7 +39,6 @@ ddev drush recipe ../recipes/varbase_ai_search_base
 ddev drush cr
 ```
 
-Add `drupal/varbase_ai_search_base` to the recipe unpack ignore list first, as described in [Installing the Alpha Recipes](README.md#installing-the-alpha-recipes).
 
 Then index the content and check it:
 

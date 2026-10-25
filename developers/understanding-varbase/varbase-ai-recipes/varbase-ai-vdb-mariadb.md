@@ -41,7 +41,6 @@ ddev drush recipe ../recipes/varbase_ai_vdb_mariadb
 ddev drush cr
 ```
 
-Add `drupal/varbase_ai_vdb_mariadb` to the recipe unpack ignore list first, as described in [Installing the Alpha Recipes](README.md#installing-the-alpha-recipes).
 
 **Varbase AI Search Base** stores its vectors in a database called `varbase_ai_search`. It must exist and the site's database user must have access to it. On DDEV:
 
